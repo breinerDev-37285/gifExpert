@@ -1,0 +1,10 @@
+// fuentes 
+
+@mixin ubuntu ($font){
+    @font-face{
+        font-family: $font;
+        src: url('../fonts/Ubuntu/#{$font}.ttf');
+    }
+}
+
+

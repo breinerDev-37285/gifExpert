@@ -1,0 +1,30 @@
+@use '../assets/sass/fonts' as font;
+
+$ubuntu-italic: 'Ubuntu-Italic';
+$ubuntu-regular: 'Ubuntu-Regular';
+
+
+@include font.ubuntu($ubuntu-italic);
+@include font.ubuntu($ubuntu-regular);
+
+
+.container{
+
+    padding: 0 4em;
+
+    h1{
+        font-family: $ubuntu-italic;
+        font-size: 2em;
+        color: #222222;
+    }
+}
+
+.containerDiv{  
+    margin: 0 15%;
+
+    ul {
+        margin-top: 2em;
+        font-size: 17px;
+        font-family: $ubuntu-regular;
+    }
+}
